@@ -1,12 +1,57 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    colors: {
+      white: "#ffffff",
+      black: "000000",
+      transparent: "transparent",
+      background: "#ffffff",
+      currentColor: "currentColor",
+      gray: {
+        1: "hsl(var(--slate1) / <alpha-value>)",
+        2: "hsl(var(--slate2) / <alpha-value>)",
+        3: "hsl(var(--slate3) / <alpha-value>)",
+        4: "hsl(var(--slate4) / <alpha-value>)",
+        5: "hsl(var(--slate5) / <alpha-value>)",
+        6: "hsl(var(--slate6) / <alpha-value>)",
+        7: "hsl(var(--slate7) / <alpha-value>)",
+        8: "hsl(var(--slate8) / <alpha-value>)",
+        9: "hsl(var(--slate9) / <alpha-value>)",
+        10: "hsl(var(--slate10) / <alpha-value>)",
+        11: "hsl(var(--slate11) / <alpha-value>)",
+        12: "hsl(var(--slate12) / <alpha-value>)",
+      },
+      blue: {
+        1: "hsl(var(--indigo1) / <alpha-value>)",
+        2: "hsl(var(--indigo2) / <alpha-value>)",
+        3: "hsl(var(--indigo3) / <alpha-value>)",
+        4: "hsl(var(--indigo4) / <alpha-value>)",
+        5: "hsl(var(--indigo5) / <alpha-value>)",
+        6: "hsl(var(--indigo6) / <alpha-value>)",
+        7: "hsl(var(--indigo7) / <alpha-value>)",
+        8: "hsl(var(--indigo8) / <alpha-value>)",
+        9: "hsl(var(--indigo9) / <alpha-value>)",
+        10: "hsl(var(--indigo10) / <alpha-value>)",
+        11: "hsl(var(--indigo11) / <alpha-value>)",
+        12: "hsl(var(--indigo12) / <alpha-value>)",
+      },
+      red: {
+        1: "hsl(var(--tomato1) / <alpha-value>)",
+        2: "hsl(var(--tomato2) / <alpha-value>)",
+        3: "hsl(var(--tomato3) / <alpha-value>)",
+        4: "hsl(var(--tomato4) / <alpha-value>)",
+        5: "hsl(var(--tomato5) / <alpha-value>)",
+        6: "hsl(var(--tomato6) / <alpha-value>)",
+        7: "hsl(var(--tomato7) / <alpha-value>)",
+        8: "hsl(var(--tomato8) / <alpha-value>)",
+        9: "hsl(var(--tomato9) / <alpha-value>)",
+        10: "hsl(var(--tomato10) / <alpha-value>)",
+        11: "hsl(var(--tomato11) / <alpha-value>)",
+        12: "hsl(var(--tomato12) / <alpha-value>)",
+      },
+    },
     extend: {},
   },
   plugins: [],
-}
-
+};
